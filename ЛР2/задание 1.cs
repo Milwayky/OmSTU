@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 class Program
 {
     static void Main()
@@ -6,7 +6,7 @@ class Program
         int n = Convert.ToInt32(Console.ReadLine());
         int a = Convert.ToInt32(Console.ReadLine());
         int b = Convert.ToInt32(Console.ReadLine());
-        int counterMax;
+        int counterMax = 0;
         
         if (n < 3)
         {
