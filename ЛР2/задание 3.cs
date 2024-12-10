@@ -1,6 +1,3 @@
-3 задание
-
-
 using System;
 class Program
 {
