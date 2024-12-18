@@ -15,17 +15,14 @@ class Program
                 mmax2 = a;
                 mmax1 = a;
             }
-            if (a > mmax1)
+            else if (a > mmax1)
             {
+                mmax2 = mmax1;
                 mmax1 = a;
             }
-            else if(a > mmax2)
+            else if (a > mmax2 && a < mmax1) 
             {
                 mmax2 = a;
-            }
-            else
-            {
-                continue;
             }
      
         }
