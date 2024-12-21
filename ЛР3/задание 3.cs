@@ -1,3 +1,4 @@
+//необходимо определить максимальную сумму подпоследовательности состоящей из чётных элементов
 using System;
 class HelloWorld
 {
@@ -18,6 +19,7 @@ class HelloWorld
             else
             {
                 MmaxSum = Math.Max(Sum, MmaxSum);
+                Sum = 0;
             }
         }
         MmaxSum = Math.Max(Sum, MmaxSum);
