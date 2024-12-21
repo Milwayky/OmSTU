@@ -1,5 +1,6 @@
+//определить минимальный размер подпоследовательнсости состоящий из единичек
 using System;
-class HelloWorld 
+class HelloWorld
 {
     static void Main() 
     {
